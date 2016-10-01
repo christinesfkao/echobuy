@@ -1644,7 +1644,7 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: -apple-system, 'BlinkMacSystemFont', Arial, Helvetica, sans-serif;
+		font-family: Helvetica, Arial,  sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -1699,7 +1699,13 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		font-size: 14px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.5;
+		color: #323232;
+		color: var(--black);
 	}
 
 	h1 {
@@ -3935,7 +3941,7 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("images/big-bg.png");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -3968,3 +3974,22 @@
 			}
 
 		}
+
+/* Background color in different section*/
+
+	#one section:nth-child(2n+1) { 
+		background-color: #ffffff;
+	}
+
+	#two, #one section:nth-child(2n) { 
+  		background-color: #dde9f8;
+	}
+
+	#three{
+ 		background-color: #4080ff;
+	}
+
+	#footer{
+	  	background-color: #4b4f56;	
+	}
+
