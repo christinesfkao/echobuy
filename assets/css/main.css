@@ -1644,7 +1644,7 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: -apple-system, 'BlinkMacSystemFont', Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -1703,7 +1703,6 @@
 	}
 
 	h1 {
-	  font-family: SFUIDisplay;
 	  font-size: 52px;
 	  font-weight: bold;
 	  font-style: normal;
@@ -1713,7 +1712,6 @@
 	}
 
 	h2 {
-	  font-family: SFUIText;
 	  font-size: 28px;
 	  font-weight: bold;
 	  font-style: normal;
@@ -1723,7 +1721,6 @@
 	}
 
 	h3 {
-	  font-family: SFUIText;
 	  font-size: 21px;
 	  font-weight: normal;
 	  font-style: normal;
@@ -1732,7 +1729,6 @@
 	}
 
 	.blue-btn {
-	  font-family: SFUIDisplay;
 	  font-size: 16px;
 	  font-weight: 500;
 	  font-style: normal;
@@ -1742,7 +1738,6 @@
 	}
 
 	.white-btn {
-	  font-family: SFUIDisplay;
 	  font-size: 16px;
 	  font-weight: 500;
 	  font-style: normal;
@@ -1751,7 +1746,6 @@
 	}
 
 	.font {
-	  font-family: SFUIText;
 	  font-size: 14px;
 	  font-weight: normal;
 	  font-style: normal;
@@ -1761,7 +1755,6 @@
 	}
 
 	h4 {
-	  font-family: SFUIText;
 	  font-size: 14px;
 	  font-weight: normal;
 	  font-style: normal;
