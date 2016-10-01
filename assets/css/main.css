@@ -1653,7 +1653,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -3600,7 +3600,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #fafafa;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3813,7 +3813,8 @@
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: #000000;
+			opacity: 0.5;
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3824,6 +3825,7 @@
 			position: relative;
 			text-decoration: none;
 			text-transform: uppercase;
+
 		}
 
 			#sidebar nav a:before, #sidebar nav a:after {
@@ -3841,10 +3843,10 @@
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #0677fa, #b0caff);
+				background-image: -webkit-linear-gradient(to right, #0677fa, #b0caff);
+				background-image: -ms-linear-gradient(to right, #0677fa, #b0caff);
+				background-image: linear-gradient(to right, #0677fa, #b0caff);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3857,7 +3859,7 @@
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				color: #4080ff;
 			}
 
 				#sidebar nav a.active:after {
