@@ -1637,10 +1637,14 @@
 		}
 
 /* Type */
+	:root {
+	  --lightish-blue: #4080ff;
+	  --black: #323232;
+	}
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: -apple-system, 'BlinkMacSystemFont', Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -1698,7 +1702,68 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+	  font-size: 52px;
+	  font-weight: bold;
+	  font-style: normal;
+	  font-stretch: normal;
+	  color: #4080ff;
+	  color: var(--lightish-blue);
+	}
+
+	h2 {
+	  font-size: 28px;
+	  font-weight: bold;
+	  font-style: normal;
+	  font-stretch: normal;
+	  color: #4080ff;
+	  color: var(--lightish-blue);
+	}
+
+	h3 {
+	  font-size: 21px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  color: #20375f;
+	}
+
+	.blue-btn {
+	  font-size: 16px;
+	  font-weight: 500;
+	  font-style: normal;
+	  font-stretch: normal;
+	  color: #4080ff;
+	  color: var(--lightish-blue);
+	}
+
+	.white-btn {
+	  font-size: 16px;
+	  font-weight: 500;
+	  font-style: normal;
+	  font-stretch: normal;
+	  color: #ffffff;
+	}
+
+	.font {
+	  font-size: 14px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  color: #4080ff;
+	  color: var(--lightish-blue);
+	}
+
+	h4 {
+	  font-size: 14px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  color: #323232;
+	  color: var(--black);
+	}
+	
+	h5, h6 {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1.5;
@@ -1710,9 +1775,6 @@
 			text-decoration: none;
 		}
 
-	h1 {
-		font-size: 2.75em;
-	}
 
 		h1.major {
 			margin: 0 0 1.3em 0;
@@ -1738,17 +1800,6 @@
 				width: 100%;
 			}
 
-	h2 {
-		font-size: 1.75em;
-	}
-
-	h3 {
-		font-size: 1.1em;
-	}
-
-	h4 {
-		font-size: 1em;
-	}
 
 	h5 {
 		font-size: 0.8em;
@@ -1757,7 +1808,7 @@
 	h6 {
 		font-size: 0.6em;
 	}
-
+	
 	@media screen and (max-width: 736px) {
 
 		h1 {
