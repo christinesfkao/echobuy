@@ -1,0 +1,130 @@
+.section-1 {
+	height: 170px;
+	background-color: white;
+	padding: 37px 0 0 0;
+}
+
+.section-1 h3 {
+	margin-top: 42px;
+	color: #20375F;
+	font-size: 21px;
+}
+
+.section-2 {
+	background-color: #EBEBEB;
+	height: 490px;
+	padding-top: 36px;
+}
+
+.section-1 h4, .section-2 h4 {
+	margin: 0 0 18px 0;
+	font-size: 14px;
+	font-weight: 400;
+	color: #323232;
+}
+
+.section-2 .container {
+	width: 1090px;
+    /*margin: 0 0 0 210px;*/
+    margin: 0 auto;
+}
+
+.logo {
+	width: 153px;
+}
+
+.fb-icon {
+	vertical-align: top;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.fb-sign-in {
+	background-color: #3B5998;
+    padding: 12.5px 28px;
+    margin-left: -8px;
+	display: inline-block;
+	color: white;
+	vertical-align: top;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.check {
+	vertical-align: top;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.account input {
+	width: 198px;
+}
+
+input {
+	width: 198px;
+	height: 14px;
+	outline: none;
+	border-color: #9B9B9B;
+	border-radius: 3px;
+	border-style: solid;
+	margin-bottom: 15px;
+	border-width: 1px;
+	padding: 10px;
+}
+
+.credit-card input {
+	width: 52px
+}
+
+.card {
+	/*margin-top: 36px;*/
+	background-color: white;
+	border-radius: 12px;
+	padding: 12px 24px;
+	width: 344px;
+    width: 312px;
+    display: inline-block;
+}
+
+.inline-b {
+	display: inline-block;
+}
+
+.m-r-78 {
+	margin-right: 78px;
+}
+
+.message {
+	padding: 15px 150px;
+	background-color: white;
+	color: #4080FF;
+	display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.message img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.h-40 { height: 40px; }
+
+body {
+	margin: 0;
+}
+
+
+
+.flex { display: flex; flex-wrap: wrap; }
+.flex-1 { flex: 1; }
+.flex-2 { flex: 2; }
+
+.flex-sa { justify-content: space-around; }
+.flex-sb { justify-content: space-between; }
+.flex-jcc { justify-content: center; }
+
+.flex-col { flex-direction: column; }
+
+
+.center { text-align: center; }
